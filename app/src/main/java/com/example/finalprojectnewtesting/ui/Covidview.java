@@ -1,10 +1,13 @@
-package com.example.finalprojectnewtesting;
+package com.example.finalprojectnewtesting.ui;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.widget.TextView;
+
+import com.example.finalprojectnewtesting.Background;
+import com.example.finalprojectnewtesting.R;
 
 public class Covidview extends AppCompatActivity {
 

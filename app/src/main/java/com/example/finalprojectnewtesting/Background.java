@@ -18,7 +18,7 @@ public class Background extends AsyncTask<Integer,Void,String>{
     }
 
     @Override
-    protected String doInBackground(Integer... params) {
+    public String doInBackground(Integer... params) {
         //Instantiate Covid Object
         CovidStats covid = new CovidStats();
         //Instantiate Utility Class

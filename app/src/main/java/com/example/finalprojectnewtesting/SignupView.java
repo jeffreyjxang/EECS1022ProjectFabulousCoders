@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+import com.example.finalprojectnewtesting.ui.Covidview;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -55,7 +57,7 @@ public class SignupView extends AppCompatActivity {
                 System.out.println("accoutn added");
 
                 //Switch Activity
-                Intent i = new Intent(this, Covidview.class);
+                Intent i = new Intent(this, gameMain.class);
                 startActivity(i);
             }
         }

@@ -8,13 +8,8 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Set;
+import com.example.finalprojectnewtesting.ui.Covidview;
 
 public class LoginView extends AppCompatActivity {
 
@@ -44,7 +39,7 @@ public class LoginView extends AppCompatActivity {
             ) {
                 System.out.println("logged in");
                 //Changes Activity
-                Intent i = new Intent(this, Covidview.class);
+                Intent i = new Intent(this, gameMain.class);
                 startActivity(i);
             } else {
                 System.out.println("wrong pass");
