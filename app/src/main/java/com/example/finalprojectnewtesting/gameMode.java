@@ -29,20 +29,19 @@ public class gameMode extends AppCompatActivity {
         Utilities util = new Utilities();
         util.saveToSharedPrefString("1", "mode",getApplicationContext());
         util.saveToSharedPrefString(userGuessBox.getText().toString(), "attempts",getApplicationContext());
-        if( TextUtils.isEmpty(userGuessBox.getText())){
 
-        }else{
             Intent i = new Intent(getApplicationContext(), gameplayView.class);
             startActivity(i);
-        }
     }
 
     public void button2(View v) {
         EditText userGuessBox = (EditText) findViewById(R.id.userAttemptNum);
+        EditText userRange = (EditText) findViewById(R.id.userRange);
         Utilities util = new Utilities();
         util.saveToSharedPrefString("2", "mode",getApplicationContext());
         util.saveToSharedPrefString(userGuessBox.getText().toString(), "attempts",getApplicationContext());
-        if( TextUtils.isEmpty(userGuessBox.getText())){
+        util.saveToSharedPrefString(userRange.getText().toString(), "attempts",getApplicationContext());
+        if( TextUtils.isEmpty(userGuessBox.getText()) || TextUtils.isEmpty(userGuessBox.getText())){
 
 
         }else{
