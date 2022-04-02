@@ -91,7 +91,7 @@ public class gameplayView extends AppCompatActivity {
             TextView attemptBox = (TextView) findViewById(R.id.attempts);
             TextView score = (TextView) findViewById(R.id.score);
 
-            int number = util.randNumGen(3);
+            int number = util.randNumGen(5);
 
             System.out.println(number);
             if (number == (userGuess)) {
