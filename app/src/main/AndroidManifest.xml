@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProjectNewTesting">
         <activity
+            android:name=".ui.gamePlayNew"
+            android:exported="false" />
+        <activity
             android:name=".gameplayView"
             android:exported="false" />
         <activity

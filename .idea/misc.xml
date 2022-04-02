@@ -14,10 +14,14 @@
         <entry key="..\:/Users/kubhi/AndroidStudioProjects/EECS1022ProjectFabulousCoders/app/src/main/res/layout/activity_loginview.xml" value="0.3625" />
         <entry key="..\:/Users/kubhi/AndroidStudioProjects/EECS1022ProjectFabulousCoders/app/src/main/res/layout/activity_main.xml" value="0.3625" />
         <entry key="..\:/Users/kubhi/AndroidStudioProjects/EECS1022ProjectFabulousCoders/app/src/main/res/layout/activity_signupview.xml" value="0.25" />
+        <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/drawable/ic_menu_camera.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.20052083333333334" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/drawable/rectangle_1.xml" value="0.20052083333333334" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/drawable/rectangle_2.xml" value="0.20052083333333334" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/layout/activity_covidview.xml" value="0.184375" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/layout/activity_game_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/layout/activity_game_play_new.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/layout/activity_game_view.xml" value="0.184375" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/layout/activity_gameplay_view.xml" value="0.22" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/layout/activity_leader_view.xml" value="0.184375" />
@@ -26,9 +30,9 @@
         <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/layout/activity_signupview.xml" value="0.22" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/layout/app_bar_game_main.xml" value="0.184375" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/layout/content_game_main.xml" value="0.184375" />
-        <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/layout/fragment_home.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/layout/nav_header_game_main.xml" value="0.22" />
-        <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/menu/activity_main_drawer.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/menu/activity_main_drawer.xml" value="0.22" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/menu/game_main.xml" value="0.184375" />
         <entry key="..\:/Users/ourai/Documents/FinalProjectNewTesting/app/src/main/res/layout/activity_covidview.xml" value="0.3569230769230769" />
         <entry key="..\:/Users/ourai/Documents/FinalProjectNewTesting/app/src/main/res/layout/activity_loginview.xml" value="0.3569230769230769" />

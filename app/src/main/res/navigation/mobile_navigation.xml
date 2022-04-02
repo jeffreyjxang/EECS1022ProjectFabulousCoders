@@ -12,6 +12,12 @@
         tools:layout="@layout/fragment_home" />
 
     <activity
+        android:id="@+id/nav_game"
+        android:name="com.example.finalprojectnewtesting.ui.gamePlayNew"
+        android:label="@string/menu_game"
+        tools:layout="@layout/activity_game_play_new" />
+
+    <activity
         android:id="@+id/nav_leader"
         android:name="com.example.finalprojectnewtesting.ui.leaderView"
         android:label="@string/menu_leader"
