@@ -4,22 +4,23 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="414dp"
-        android:layout_height="264dp"
+        android:layout_width="413dp"
+        android:layout_height="176dp"
         android:background="#dfdfdf"
         android:orientation="vertical">
 
+
         <TextView
             android:id="@+id/txt_dia"
-            android:layout_width="wrap_content"
+            android:layout_width="333dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
             android:text="@string/s32"
+            android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="15dp"
+            android:textSize="16sp"
             android:textStyle="bold" />
-
 
         <LinearLayout
             android:layout_width="wrap_content"

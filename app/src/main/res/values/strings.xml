@@ -29,7 +29,7 @@
     <string name="menu_leader">High Score</string>
     <string name="s10">CHOOSE A MODE</string>
     <string name="s11">PLAY</string>
-    <string name="s12">Guess a number between 1 and 10.  Guess correctly in a row and get a high score.</string>
+    <string name="s12">Guess a number between 1 and 5.  Guess correctly in a row and get a high score.</string>
     <string name="s13">Select number of attempts, then guess a number between 1 and X and get a high score.</string>
     <string name="s14">YOUR HIGH SCORE</string>
     <string name="stringScore" />
