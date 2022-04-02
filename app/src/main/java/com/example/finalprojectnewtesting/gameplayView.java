@@ -43,12 +43,13 @@ public class gameplayView extends AppCompatActivity {
                 attemptBox.setText("" + (Integer.parseInt(attemptBox.getText().toString()) + 1));
             }
 
-            if (Integer.parseInt(attemptBox.getText().toString()) < Integer.parseInt(attempts)) {
+            if (Integer.parseInt(attemptBox.getText().toString()) <= Integer.parseInt(attempts)) {
+                System.out.println("TESTING 2");
                 EditText userGuessBox = (EditText) findViewById(R.id.userAttemptNum);
                 int userGuess = Integer.parseInt(userGuessBox.getText().toString());
 
 
-                int number = util.randNumGen(0);
+                int number = util.randNumGen(Integer.parseInt(prefs.getString("range","")));
                 System.out.println(number);
                 if (number == (userGuess)) {
                     //win popup
@@ -61,7 +62,9 @@ public class gameplayView extends AppCompatActivity {
                         score.setText("" + (Integer.parseInt(score.getText().toString()) + 1));
                     }
                 } else {
-
+                    System.out.println("TESTING 1");
+                    System.out.println(attemptBox.getText().toString());
+                    System.out.println(Integer.parseInt(attempts));
                     score.setText("0");
                     attemptBox.setText("0");
                     //lose popup                                                                                                dddd
@@ -70,7 +73,6 @@ public class gameplayView extends AppCompatActivity {
             } else {
                 score.setText("0");
                 attemptBox.setText("0");
-                util.saveToSharedPrefString("0", "attempts");
                 showDialog();
             }
 
@@ -89,7 +91,8 @@ public class gameplayView extends AppCompatActivity {
             TextView attemptBox = (TextView) findViewById(R.id.attempts);
             TextView score = (TextView) findViewById(R.id.score);
 
-            int number = util.randNumGen(0);
+            int number = util.randNumGen(3);
+
             System.out.println(number);
             if (number == (userGuess)) {
                     //win popup
@@ -100,11 +103,13 @@ public class gameplayView extends AppCompatActivity {
 
                     score.setText("" + (Integer.parseInt(score.getText().toString()) + 1));
                 }
-                showDialogWin();
+
             } else {
                 //lose popup                                                                                                            ddddd
+                if (Integer.parseInt(attemptBox.getText().toString()) <= Integer.parseInt(attempts)) {
+                    showDialog();
+                }
 
-                showDialog();
             }
         }
     }
@@ -128,7 +133,7 @@ public class gameplayView extends AppCompatActivity {
 
     private void showDialogWin(){
         Dialog dialog = new Dialog(this);
-        dialog.setContentView(R.layout.layout_custom_dialog);
+        dialog.setContentView(R.layout.layout_custom_dialog_win);
 
         dialog.show();
     }

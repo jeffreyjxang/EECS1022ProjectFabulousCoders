@@ -37,9 +37,6 @@
             android:name=".SignupView"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
             android:name=".LoginView"
             android:exported="true">
             <intent-filter>

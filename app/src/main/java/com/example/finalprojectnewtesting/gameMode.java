@@ -40,7 +40,7 @@ public class gameMode extends AppCompatActivity {
         Utilities util = new Utilities();
         util.saveToSharedPrefString("2", "mode",getApplicationContext());
         util.saveToSharedPrefString(userGuessBox.getText().toString(), "attempts",getApplicationContext());
-        util.saveToSharedPrefString(userRange.getText().toString(), "attempts",getApplicationContext());
+        util.saveToSharedPrefString(userRange.getText().toString(), "range",getApplicationContext());
         if( TextUtils.isEmpty(userGuessBox.getText()) || TextUtils.isEmpty(userGuessBox.getText())){
 
 
