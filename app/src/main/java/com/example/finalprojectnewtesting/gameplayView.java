@@ -52,6 +52,7 @@ public class gameplayView extends AppCompatActivity {
                 System.out.println(number);
                 if (number == (userGuess)) {
                     //win popup
+                    showDialogWin();
                     userGuessBox.setText("");
                     if (score.getText().toString().equals("") || score.getText().toString().equals(null)) {
                         attemptBox.setText("0");
@@ -69,9 +70,8 @@ public class gameplayView extends AppCompatActivity {
             } else {
                 score.setText("0");
                 attemptBox.setText("0");
-
-                Intent i = new Intent(this, gameMain.class);
-                startActivity(i);
+                util.saveToSharedPrefString("0", "attempts");
+                showDialog();
             }
 
 
@@ -100,6 +100,7 @@ public class gameplayView extends AppCompatActivity {
 
                     score.setText("" + (Integer.parseInt(score.getText().toString()) + 1));
                 }
+                showDialogWin();
             } else {
                 //lose popup                                                                                                            ddddd
 
@@ -121,6 +122,23 @@ public class gameplayView extends AppCompatActivity {
     }
 
     public void noButtonDialog1(View view) {
+        Intent i = new Intent(this, gameMain.class);
+        startActivity(i);
+    }
+
+    private void showDialogWin(){
+        Dialog dialog = new Dialog(this);
+        dialog.setContentView(R.layout.layout_custom_dialog);
+
+        dialog.show();
+    }
+
+    public void yesButtonDialog2(View view) {
+        Intent i = new Intent(this, gameMode.class);
+        startActivity(i);
+    }
+
+    public void noButtonDialog2(View view) {
         Intent i = new Intent(this, gameMain.class);
         startActivity(i);
     }
