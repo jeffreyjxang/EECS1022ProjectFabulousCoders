@@ -37,8 +37,8 @@
     <string name="s16">ATTEMPTS:</string>
     <string name="s17">Guess a number between 1 and X \n?</string>
     <string name="s18">Enter a number</string>
-    <string name="scoreNum"></string>
-    <string name="attemptNum" />
+    <string name="scoreNum">0</string>
+    <string name="attemptNum">0</string>
     <string name="s21">SUBMIT</string>
     <string name="s23">OR</string>
     <string name="s24">Enter number of attempts</string>

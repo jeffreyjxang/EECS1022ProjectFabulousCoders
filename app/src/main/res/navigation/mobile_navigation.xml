@@ -13,13 +13,13 @@
 
     <activity
         android:id="@+id/nav_game"
-        android:name="com.example.finalprojectnewtesting.ui.gameMode"
+        android:name="com.example.finalprojectnewtesting.gameMode"
         android:label="@string/menu_game"
         tools:layout="@layout/activity_game_mode" />
 
     <activity
         android:id="@+id/nav_leader"
-        android:name="com.example.finalprojectnewtesting.ui.leaderView"
+        android:name="com.example.finalprojectnewtesting.leaderView"
         android:label="@string/menu_leader"
         tools:layout="@layout/activity_leader_view" />
 

@@ -5,10 +5,19 @@ public class GameSettings {
     private String tries;
     private int answer;
     private int guess;
+    private int mode;
 
-    GameSettings(int range, String tries) {
-        this.range = range;
+    public GameSettings(int mode, String tries) {
+        this.mode = mode;
         this.tries = tries;
+    }
+
+    public int getMode() {
+        return mode;
+    }
+
+    public void setMode(int mode) {
+        this.mode = mode;
     }
 
     public int getGuess() {

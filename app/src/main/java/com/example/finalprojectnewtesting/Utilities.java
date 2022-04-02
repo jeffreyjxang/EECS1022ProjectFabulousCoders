@@ -22,4 +22,14 @@ public class Utilities {
         editor.commit();
     }
 
+    public int randNumGen(int range) {
+        return (int) (1 + Math.random() * range);
+    }
+
+    public void deleteSharedPreferencestring(String name, Context context) {
+        SharedPreferences prefs = context.getSharedPreferences("myPrefsKey", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.remove(name);
+        editor.commit();
+    }
 }

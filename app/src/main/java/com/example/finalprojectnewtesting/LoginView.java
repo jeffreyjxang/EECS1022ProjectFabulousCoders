@@ -27,7 +27,7 @@ public class LoginView extends AppCompatActivity {
         //Gather the Strings inside the TextBoxes
         String emailText = email.getText().toString();
         String passwordText = password.getText().toString();
-
+        Utilities util = new Utilities();
         //Setup SharedPreferences
         SharedPreferences prefs = getApplicationContext().getSharedPreferences("myPrefsKey", Context.MODE_PRIVATE);
         System.out.println(prefs.getAll());
@@ -38,6 +38,9 @@ public class LoginView extends AppCompatActivity {
                     String.valueOf(prefs.getStringSet(emailText, null).toArray()[0]).equals(passwordText)
             ) {
                 System.out.println("logged in");
+                System.out.println(prefs.getAll().toString());
+                util.saveToSharedPrefString(emailText, "currentemail", getApplicationContext());
+                util.saveToSharedPrefString(passwordText, "currentpassword", getApplicationContext());
                 //Changes Activity
                 Intent i = new Intent(this, gameMain.class);
                 startActivity(i);

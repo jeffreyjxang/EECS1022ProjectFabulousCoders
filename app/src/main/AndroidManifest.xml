@@ -14,13 +14,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProjectNewTesting">
         <activity
-            android:name=".ui.gameMode"
+            android:name=".gameMode"
             android:exported="false" />
         <activity
             android:name=".gameplayView"
             android:exported="false" />
         <activity
-            android:name=".ui.leaderView"
+            android:name=".leaderView"
             android:exported="false" />
         <activity
             android:name=".gameMain"
