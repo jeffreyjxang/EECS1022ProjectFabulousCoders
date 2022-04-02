@@ -46,7 +46,9 @@
     <string name="s22">yes</string>
     <string name="s31">You have lost the game, Do you want to play again?</string>
     <string name="s32">Congurlations you have won the game, Do you want to play again?</string>
+    <string name="s33">That is not the number. Try guessing again</string>
     <string name="s40">no</string>
+    <string name="s41">OK</string>
 
     <string name="members">Team Members:\n\n Jeffrey Jiang \n Prabhjot Dhaliwal \n Naman Rai \n Karnveer Ubhi</string>
     <string name="info">Swipe right or use the sidebar button on top-left corner to navigate to different pages</string>

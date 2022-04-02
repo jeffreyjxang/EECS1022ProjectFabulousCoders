@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -49,8 +50,8 @@ public class gameplayView extends AppCompatActivity {
                 int userGuess = Integer.parseInt(userGuessBox.getText().toString());
 
 
-                int number = util.randNumGen(Integer.parseInt(prefs.getString("range","")));
-                System.out.println(number);
+                int number = Integer.parseInt(prefs.getString("randomNum",""));
+                System.out.println("NUMBER" + number);
                 if (number == (userGuess)) {
                     //win popup
                     showDialogWin();
@@ -65,10 +66,9 @@ public class gameplayView extends AppCompatActivity {
                     System.out.println("TESTING 1");
                     System.out.println(attemptBox.getText().toString());
                     System.out.println(Integer.parseInt(attempts));
-                    score.setText("0");
-                    attemptBox.setText("0");
-                    //lose popup                                                                                                dddd
-                    showDialog();
+                    //lose popup
+
+                    Toast.makeText(gameplayView.this,"Wrong number, try again",Toast.LENGTH_LONG).show();
                 }
             } else {
                 score.setText("0");

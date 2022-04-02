@@ -14,9 +14,6 @@
         <entry key="..\:/Users/kubhi/AndroidStudioProjects/EECS1022ProjectFabulousCoders/app/src/main/res/layout/activity_loginview.xml" value="0.3625" />
         <entry key="..\:/Users/kubhi/AndroidStudioProjects/EECS1022ProjectFabulousCoders/app/src/main/res/layout/activity_main.xml" value="0.3625" />
         <entry key="..\:/Users/kubhi/AndroidStudioProjects/EECS1022ProjectFabulousCoders/app/src/main/res/layout/activity_signupview.xml" value="0.25" />
-        <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final new/app/src/main/res/layout/activity_loginview.xml" value="0.184375" />
-        <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final new/app/src/main/res/layout/activity_signupview.xml" value="0.184375" />
-        <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final new/app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/drawable/rectangle_1.xml" value="0.20052083333333334" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/drawable/rectangle_2.xml" value="0.20052083333333334" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/EECS 1022/EECS1022/1022 project/final/app/src/main/res/layout/activity_covidview.xml" value="0.184375" />
@@ -47,6 +44,8 @@
         <entry key="..\:/Users/ourai/Documents/FinalProjectNewTesting/app/src/main/res/layout/content_game_main.xml" value="0.2759259259259259" />
         <entry key="..\:/Users/ourai/Documents/FinalProjectNewTesting/app/src/main/res/layout/fragment_home.xml" value="0.2759259259259259" />
         <entry key="..\:/Users/ourai/Documents/FinalProjectNewTesting/app/src/main/res/layout/layout_custom_dialog.xml" value="0.24351851851851852" />
+        <entry key="..\:/Users/ourai/Documents/FinalProjectNewTesting/app/src/main/res/layout/layout_custom_dialog_tryagain.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/ourai/Documents/FinalProjectNewTesting/app/src/main/res/layout/layout_custom_dialog_win.xml" value="0.203125" />
         <entry key="..\:/Users/ourai/Documents/FinalProjectNewTesting/app/src/main/res/layout/nav_header_game_main.xml" value="0.2601851851851852" />
       </map>
     </option>
