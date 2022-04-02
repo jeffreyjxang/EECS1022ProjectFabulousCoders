@@ -44,7 +44,7 @@ public class gameplayView extends AppCompatActivity {
                 attemptBox.setText("" + (Integer.parseInt(attemptBox.getText().toString()) + 1));
             }
 
-            if (Integer.parseInt(attemptBox.getText().toString()) <= Integer.parseInt(attempts)) {
+            if (Integer.parseInt(attemptBox.getText().toString()) < Integer.parseInt(attempts)) {
                 System.out.println("TESTING 2");
                 EditText userGuessBox = (EditText) findViewById(R.id.userAttemptNum);
                 int userGuess = Integer.parseInt(userGuessBox.getText().toString());
@@ -106,9 +106,8 @@ public class gameplayView extends AppCompatActivity {
 
             } else {
                 //lose popup                                                                                                            ddddd
-                if (Integer.parseInt(attemptBox.getText().toString()) <= Integer.parseInt(attempts)) {
                     showDialog();
-                }
+
 
             }
         }
