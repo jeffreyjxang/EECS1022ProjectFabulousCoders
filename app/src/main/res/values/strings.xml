@@ -40,9 +40,12 @@
     <string name="scoreNum">0</string>
     <string name="attemptNum">0</string>
     <string name="s21">SUBMIT</string>
+    <string name="s22">yes</string>
     <string name="s23">OR</string>
     <string name="s24">Enter number of attempts</string>
 
     <string name="s30">Enter range</string>
+    <string name="s31">play again</string>
+    <string name="s40">no</string>
 
 </resources>

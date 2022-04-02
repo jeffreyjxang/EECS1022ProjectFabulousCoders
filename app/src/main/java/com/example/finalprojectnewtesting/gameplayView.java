@@ -2,12 +2,14 @@ package com.example.finalprojectnewtesting;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -61,10 +63,8 @@ public class gameplayView extends AppCompatActivity {
 
                     score.setText("0");
                     attemptBox.setText("0");
-                    //lose popup
-
-                    Intent i = new Intent(this, gameMain.class);
-                    startActivity(i);
+                    //lose popup                                                                                                dddd
+                    showDialog();
                 }
             } else {
                 score.setText("0");
@@ -73,6 +73,15 @@ public class gameplayView extends AppCompatActivity {
                 Intent i = new Intent(this, gameMain.class);
                 startActivity(i);
             }
+
+
+
+
+
+
+
+
+
         } else {
             EditText userGuessBox = (EditText) findViewById(R.id.userAttemptNum);
             int userGuess = Integer.parseInt(userGuessBox.getText().toString());
@@ -92,11 +101,27 @@ public class gameplayView extends AppCompatActivity {
                     score.setText("" + (Integer.parseInt(score.getText().toString()) + 1));
                 }
             } else {
-                //lose popup
+                //lose popup                                                                                                            ddddd
 
-                Intent i = new Intent(this, gameMain.class);
-                startActivity(i);
+                showDialog();
             }
         }
+    }
+
+    private void showDialog(){
+        Dialog dialog = new Dialog(this);
+        dialog.setContentView(R.layout.layout_custom_dialog);
+
+        dialog.show();
+    }
+
+    public void yesButtonDialog1(View view) {
+        Intent i = new Intent(this, gameMode.class);
+        startActivity(i);
+    }
+
+    public void noButtonDialog1(View view) {
+        Intent i = new Intent(this, gameMain.class);
+        startActivity(i);
     }
 }
