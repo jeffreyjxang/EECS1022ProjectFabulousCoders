@@ -44,5 +44,7 @@
     <string name="s24">Enter number of attempts</string>
 
     <string name="s30">Enter range</string>
+    <string name="members">Team Members:\n\n Jeffrey Jiang \n Prabhjot Dhaliwal \n Naman Rai \n Karnveer Ubhi</string>
+    <string name="info">Swipe right or use the sidebar button on top-left corner to navigate to different pages</string>
 
 </resources>
