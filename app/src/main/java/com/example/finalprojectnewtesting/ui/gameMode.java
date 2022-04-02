@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.finalprojectnewtesting.R;
 
-public class gamePlayNew extends AppCompatActivity {
+public class gameMode extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game_play_new);
+        setContentView(R.layout.activity_game_mode);
     }
 }

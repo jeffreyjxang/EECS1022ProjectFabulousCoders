@@ -13,9 +13,9 @@
 
     <activity
         android:id="@+id/nav_game"
-        android:name="com.example.finalprojectnewtesting.ui.gamePlayNew"
+        android:name="com.example.finalprojectnewtesting.ui.gameMode"
         android:label="@string/menu_game"
-        tools:layout="@layout/activity_game_play_new" />
+        tools:layout="@layout/activity_game_mode" />
 
     <activity
         android:id="@+id/nav_leader"
