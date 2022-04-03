@@ -35,7 +35,7 @@
     <string name="stringScore" />
     <string name="s15">SCORE:</string>
     <string name="s16">ATTEMPTS:</string>
-    <string name="s17">Guess a number between 1 and X \n?</string>
+    <string name="s17">Guess a number between 1 and 5 \n?</string>
     <string name="s18">Enter a number</string>
     <string name="scoreNum">0</string>
     <string name="attemptNum">0</string>
