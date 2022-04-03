@@ -67,3 +67,6 @@ Users are prompted to enter a number x and then guess a number between 1 and x. 
 ![image](https://user-images.githubusercontent.com/75332635/154764947-03b9f868-6728-4801-a5e1-3e338eb7b633.png)
 ![image](https://user-images.githubusercontent.com/75332635/154764960-95cddc37-397e-4052-be03-7552174d339c.png)
 ![image](https://user-images.githubusercontent.com/75332635/154764967-3d2cf3ab-84f3-4a2a-9c9f-5e82374a4a76.png)
+
+![image](https://user-images.githubusercontent.com/75332635/161408507-3f731f88-df61-432a-80d9-6f5499a56556.png)
+
